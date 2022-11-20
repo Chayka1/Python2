@@ -382,6 +382,17 @@ while True:
                     elif action == '0':
                         break
 
+            elif exercise_3 == '10':
+                print()
+                print('-----------------------------------------------')
+                action = input('1.Выход из меню\n' + '0.Назад\n')
+                while True:
+                    if action == '1':
+                        sys.exit()
+
+                    elif action == '0':
+                        break
+
             elif exercise_3 == '11':
                 print()
                 print('-----------------------------------------------')
@@ -584,6 +595,17 @@ while True:
                         break
 
             elif exercise_4 == '9':
+                print()
+                print('-----------------------------------------------')
+                action = input('1.Выход из меню\n' + '0.Назад\n')
+                while True:
+                    if action == '1':
+                        sys.exit()
+
+                    elif action == '0':
+                        break
+
+            elif exercise_4 == '10':
                 print()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
