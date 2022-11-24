@@ -245,3 +245,104 @@ def task_3_9():
     else:
         print('Ошибка! Введите число в диапазоне от 0 до 36!')
 
+def task_3_10():
+    five_cent = int(input('Введите количество 5 копеечных монет: '))
+    ten_cent = int(input('Введите количество 10 копеечных монет: '))
+    fifty_cent = int(input('Введите количество 50 копеечных монет: '))
+
+    five_cent *= 5
+    ten_cent *= 10
+    fifty_cent *= 50
+    total = five_cent + ten_cent + fifty_cent
+
+    if total == 100:
+        print('Поздравляем! Сумма всех копеек составил один рубль!')
+    else:
+        print('Введенная сумма не ровняется 1 рублю!')
+
+def task_3_11():
+    number_of_books = int(input('Введите количество приобретенных книг: '))
+
+    if number_of_books == 0:
+        print('Вы заработали 0 очков!')
+    elif number_of_books == 2:
+        print('Вы заработали 5 очков!')
+    elif number_of_books == 4:
+        print('Вы заработали 15 очков!')
+    elif number_of_books == 6:
+        print('Вы заработали 30 очков!')
+    elif number_of_books == 8:
+        print('Вы заработали 60 очков!')
+
+def task_3_12():
+    pockets = int(input('Введите количество приобретенных пакетов: '))
+    one_pockets = 99
+    total_sum = one_pockets * pockets
+
+    if pockets > 0 and pockets < 10:
+        print(f'Сумма скидки: 0% \nСумма покупки: {total_sum}')
+    elif pockets >= 10 and pockets <= 19:
+        sell = total_sum * 0.1
+        total_sum -= sell
+        print(f'Сумма скидки: {sell} \nСумма покупки: {total_sum}')
+    elif pockets >= 20 and pockets <= 49:
+        sell = total_sum * 0.2
+        total_sum -= sell
+        print(f'Сумма скидки: {sell} \nСумма покупки: {total_sum}')
+    elif pockets >= 50 and pockets <= 99:
+        sell = total_sum * 0.3
+        total_sum -= sell
+        print(f'Сумма скидки: {sell} \nСумма покупки: {total_sum}')
+    elif pockets >= 100:
+        sell = total_sum * 0.4
+        total_sum -= sell
+        print(f'Сумма скидки: {sell} \nСумма покупки: {total_sum}')
+    else:
+        print('Ошибка! Введите действитильное количество пакетов!')
+
+def task_3_13():
+    waith = float(input('Введите массу пакета: '))
+
+    if waith <= 200:
+        print('Сумма доставки 150 рублей!')
+    elif waith > 200 and waith <= 600:
+        print('Сумма доставки 300 рублей!')
+    elif waith > 600 and waith <= 1000:
+        print('Сумма доставки 400 рублей!')
+    elif waith > 1000:
+        print('Сумма доставки 475 рублей!')
+    else:
+        print('Ошибка! Введите правильную сумму!')
+
+def task_3_14():
+    waith = float(input('Введите ваш вес в килограмах: '))
+    growth = float(input('Введите ваш рост в метрах: '))
+    imt = waith / growth
+
+    if imt >= 18.5 and imt <= 25:
+        print('У вас оптимальнач масса тела!')
+    elif imt < 18.5:
+        print('Вы весите меньше оптимальной массы тела!')
+    elif imt > 25:
+        print('Вы весите больше оптимальной массы тела!')
+
+def task_3_15():
+    sec = int(input('Введите количество секунд: '))
+
+    if sec > 0 and sec < 60:
+        print(f'{sec} секунд')
+    elif sec >= 60 and sec < 3600:
+        min = sec // 60
+        sec = sec - (min * 60)
+        print(f'{min} минут, {sec} секунд')
+    elif sec >= 3600 and sec < 86400:
+        hour = sec // 3600
+        min = (sec - 3600) // 60
+        sec = sec - ((hour * 3600) + (min * 60))
+        print(f'{hour} час ,{min} минут, {sec} секунд')
+    elif sec >= 86400:
+        day = sec // 86000
+        hour = (sec - (day * 86000)) // 3600
+        min = (sec - ((day * 86000) + (hour * 3600))) // 60
+        sec = sec - ((day * 86000) + (hour * 3600) + (min * 60))
+        print(f'{day} день ,{hour} час ,{min} минут, {sec} секунд')
