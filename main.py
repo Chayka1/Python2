@@ -346,3 +346,14 @@ def task_3_15():
         min = (sec - ((day * 86000) + (hour * 3600))) // 60
         sec = sec - ((day * 86000) + (hour * 3600) + (min * 60))
         print(f'{day} день ,{hour} час ,{min} минут, {sec} секунд')
+
+def task_3_16():
+    year = int(input('Введите год: '))
+
+    if year % 100 == 0 and  year % 400 == 0:
+        print('Этот год высокосный!')
+    elif year % 4 == 0:
+        print('Этот год высокосный!')
+    else:
+        print('Этот год не высокосный!')
+
