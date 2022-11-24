@@ -380,3 +380,34 @@ def task_3_17():
     else:
         print('Приятного использования!')
 
+def task_3_18():
+    vegetarian = input('Будет ли на ужине вегетерианец?\n')
+    vegan = input('Будет ли на ужине веганец?\n')
+    gluten_free = input('Будет ли на ужине приверженец без глютеновой диеты?\n')
+    if vegetarian == 'да':
+        if vegan == 'да':
+            if gluten_free == 'да':
+                print('Вот ваши варианты ресторанов: \nКафе за углом')
+            else:
+                print()
+        else:
+            if gluten_free == 'да':
+                print()
+            else:
+                print()
+
+    else:
+        if vegan == 'да':
+            if gluten_free == 'да':
+                print()
+            else:
+                print()
+
+        else:
+            if gluten_free == 'да':
+                print()
+            else:
+                print()
+
+
+
