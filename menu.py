@@ -157,7 +157,7 @@ while True:
                   '0.Назад')
             exercise_2 = input()
             if exercise_2 == '1':
-                print()
+                print(task_2_1())
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:

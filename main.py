@@ -409,4 +409,12 @@ def task_3_18():
             else:
                 print('Вот ваши варианты ресторанов: \nИзысканные гамбургеры от Джо')
 
+def task_2_1():
+    product = 0
+    number = int(input('Введите число: '))
+    while product < 300:
+        number *= 10
+        product = number
+        print(product)
+
 
