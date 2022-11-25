@@ -434,3 +434,18 @@ def task_2_4():
     for num_ in range(num, num + 10):
         print(num_)
 
+def task_2_5():
+    for a in range(1, 31):
+        for b in range(31, 1, -1):
+            c = (a / b)
+            print(b)
+
+def task_2_6():
+    x = 1
+    x += 1
+    x *= 2
+    x /= 10
+    x -= 100
+    print(x)
+
+
