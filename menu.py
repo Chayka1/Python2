@@ -245,7 +245,7 @@ while True:
                         break
 
             elif exercise_2 == '9':
-                print()
+                print(task_2_9())
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
