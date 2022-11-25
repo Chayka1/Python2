@@ -448,4 +448,9 @@ def task_2_6():
     x -= 100
     print(x)
 
+def task_2_7():
+    for r in range(10):
+        for c in range(15):
+            print('*', end='')
+        print()
 
