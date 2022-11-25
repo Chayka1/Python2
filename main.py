@@ -429,3 +429,8 @@ def task_2_3():
     for num in range(0, 1001, 10):
         print(num)
 
+def task_2_4():
+    num = int(input('Введите число: '))
+    for num_ in range(num, num + 10):
+        print(num_)
+
