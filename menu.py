@@ -168,7 +168,7 @@ while True:
                         break
 
             elif exercise_2 == '2':
-                print()
+                print(task_2_2())
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:

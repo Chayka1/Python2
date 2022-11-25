@@ -417,4 +417,11 @@ def task_2_1():
         product = number
         print(product)
 
+def task_2_2():
+    yes = 'да'
+    while yes == 'да':
+        num1 = int(input('Введите первое число: '))
+        num2 = int(input('Введите второе число: '))
+        print(f'{num1} + {num2} = {num1 + num2}')
+        yes = input('Желаете выполнить операцию ещё раз? да/нет\n')
 
