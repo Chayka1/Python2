@@ -480,3 +480,17 @@ def task_4_2():
         kal = min * 4.2
         print(f'За {min} минут сожжено {kal} калорий')
 
+def task_4_3():
+    total_money_of_month = 0
+    money_of_month = int(input('Введите сумму выделенную на месяц: '))
+    buy = int(input('Введите количество покупок за месяц: '))
+    for num in range(1, buy + 1):
+        buy_ = int(input(f'Введите сумму {num} покупки: '))
+        total_money_of_month += buy_
+    if money_of_month < total_money_of_month:
+        overspending = total_money_of_month - money_of_month
+        print(f'Перерасход в этом месяце составил {overspending}$')
+    else:
+        saving = money_of_month - total_money_of_month
+        print(f'Економия в этом месяце составила {saving}$')
+
