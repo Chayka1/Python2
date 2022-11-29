@@ -494,3 +494,9 @@ def task_4_3():
         saving = money_of_month - total_money_of_month
         print(f'Економия в этом месяце составила {saving}$')
 
+def task_4_4():
+    speed = int(input('Введите скорость: '))
+    time = int(input('Введите количество часов: '))
+    for time_ in range(1, time + 1):
+        distance = time_ * speed
+        print(f'За {time_}ч транспорт проехал {distance}км')

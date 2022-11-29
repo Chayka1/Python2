@@ -540,7 +540,7 @@ while True:
                         break
 
             elif exercise_4 == '4':
-                print()
+                print(task_4_4())
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
