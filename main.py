@@ -467,3 +467,16 @@ def task_2_9():
         print('Это допустимое число!')
         num = int(input('Введите число в районе от 1 до 100: '))
     print('Это не допустимое число!')
+
+def task_4_1():
+    total_mistake = 0
+    for num in range(1, 6):
+        num_of_mistake = int(input(f'Введите количество ошибок за {num} день: '))
+        total_mistake += num_of_mistake
+    print(f'Общее количество ошибок составляет {total_mistake}!')
+
+def task_4_2():
+    for min in range(10, 35, 5):
+        kal = min * 4.2
+        print(f'За {min} минут сожжено {kal} калорий')
+

@@ -507,7 +507,7 @@ while True:
                   '0.Назад')
             exercise_4 = input()
             if exercise_4 == '1':
-                print()
+                print(task_4_1())
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -518,7 +518,7 @@ while True:
                         break
 
             elif exercise_4 == '2':
-                print()
+                print(task_4_2())
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
