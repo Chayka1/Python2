@@ -500,3 +500,14 @@ def task_4_4():
     for time_ in range(1, time + 1):
         distance = time_ * speed
         print(f'За {time_}ч транспорт проехал {distance}км')
+
+def task_4_5():
+    total_num = 0
+    years = int(input('Введите количество лет: '))
+    for years_ in range(1, years + 1):
+        for month_ in range(1, 13):
+            month = int(input(f'Введите количество осадков за {month_} месяц {years_} года: '))
+            total_num += month
+            average = total_num / (years_ * month_)
+    print(f'Общее колиство осадков {total_num} \nСреднее количство осадков в месяц {round(average, 2)}')
+
