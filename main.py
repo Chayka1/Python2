@@ -526,4 +526,3 @@ def task_4_7():
     cent = (cent * 2) - 1
     cents = cent // 100
     print(f'{cents} рубля {cent - cents * 100} копеек')
-task_4_7()
