@@ -516,3 +516,14 @@ def task_4_6():
         f = (9 / 5) * c + 32
         print(f'Температура по Цельсию {c} || Температура по Фаренгейту {round(f, 1)}')
 
+def task_4_7():
+    cent = 1
+    day = int(input('Введите количство дней: '))
+    print(f'В 1 день заработная плата составила {cent} копеек')
+    for day_ in range(2, day + 1):
+        cent *= 2
+        print(f'В {day_} день заработная плата составила {cent} копеек')
+    cent = (cent * 2) - 1
+    cents = cent // 100
+    print(f'{cents} рубля {cent - cents * 100} копеек')
+task_4_7()
