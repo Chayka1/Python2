@@ -435,10 +435,11 @@ def task_2_4():
         print(num_)
 
 def task_2_5():
+    sum = 0
     for a in range(1, 31):
         for b in range(31, 1, -1):
-            c = (a / b)
-            print(b)
+            sum += (a / b)
+    print(sum)
 
 def task_2_6():
     x = 1
@@ -526,3 +527,4 @@ def task_4_7():
     cent = (cent * 2) - 1
     cents = cent // 100
     print(f'{cents} рубля {cent - cents * 100} копеек')
+
