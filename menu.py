@@ -26,7 +26,7 @@ while True:
                   '0.Назад')
             exercise_1 = input()
             if exercise_1 == '1':
-                print(task_1_1(101))
+                task_1_1(101)
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -37,7 +37,7 @@ while True:
                         break
 
             elif exercise_1 == '2':
-                print(task_1_2(9))
+                task_1_2(9)
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -48,7 +48,7 @@ while True:
                         break
 
             elif exercise_1 == '3':
-                print(task_1_3(10))
+                task_1_3(10)
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -59,7 +59,7 @@ while True:
                         break
 
             elif exercise_1 == '4':
-                print(task_1_4())
+                task_1_4()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -70,7 +70,7 @@ while True:
                         break
 
             elif exercise_1 == '5':
-                print(task_1_5())
+                task_1_5()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -81,7 +81,7 @@ while True:
                         break
 
             elif exercise_1 == '6':
-                print(task_1_6())
+                task_1_6()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -92,7 +92,7 @@ while True:
                         break
 
             elif exercise_1 == '7':
-                print(task_1_7(1))
+                task_1_7(1)
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -103,7 +103,7 @@ while True:
                         break
 
             elif exercise_1 == '8':
-                print(task_1_8())
+                task_1_8()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -114,7 +114,7 @@ while True:
                         break
 
             elif exercise_1 == '9':
-                print(task_1_9())
+                task_1_9()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -125,7 +125,7 @@ while True:
                         break
 
             elif exercise_1 == '10':
-                print(task_1_10())
+                task_1_10()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -157,7 +157,7 @@ while True:
                   '0.Назад')
             exercise_2 = input()
             if exercise_2 == '1':
-                print(task_2_1())
+                task_2_1()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -168,7 +168,7 @@ while True:
                         break
 
             elif exercise_2 == '2':
-                print(task_2_2())
+                task_2_2()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -179,7 +179,7 @@ while True:
                         break
 
             elif exercise_2 == '3':
-                print(task_2_3())
+                task_2_3()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -190,7 +190,7 @@ while True:
                         break
 
             elif exercise_2 == '4':
-                print(task_2_4())
+                task_2_4()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -201,7 +201,7 @@ while True:
                         break
 
             elif exercise_2 == '5':
-                print()
+                task_2_5()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -212,7 +212,7 @@ while True:
                         break
 
             elif exercise_2 == '6':
-                print(task_2_6())
+                task_2_6()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -223,7 +223,7 @@ while True:
                         break
 
             elif exercise_2 == '7':
-                print(task_2_7())
+                task_2_7()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -234,7 +234,7 @@ while True:
                         break
 
             elif exercise_2 == '8':
-                print(task_2_8())
+                task_2_8()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -245,7 +245,7 @@ while True:
                         break
 
             elif exercise_2 == '9':
-                print(task_2_9())
+                task_2_9()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -284,7 +284,7 @@ while True:
                   '0.Назад')
             exercise_3 = input()
             if exercise_3 == '1':
-                print(task_3_1())
+                task_3_1()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -295,7 +295,7 @@ while True:
                         break
 
             elif exercise_3 == '2':
-                print(task_3_2())
+                task_3_2()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -306,7 +306,7 @@ while True:
                         break
 
             elif exercise_3 == '3':
-                print(task_3_3())
+                task_3_3()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -317,7 +317,7 @@ while True:
                         break
 
             elif exercise_3 == '4':
-                print(task_3_4())
+                task_3_4()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -328,7 +328,7 @@ while True:
                         break
 
             elif exercise_3 == '5':
-                print(task_3_5())
+                task_3_5()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -339,7 +339,7 @@ while True:
                         break
 
             elif exercise_3 == '6':
-                print(task_3_6())
+                task_3_6()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -350,7 +350,7 @@ while True:
                         break
 
             elif exercise_3 == '7':
-                print(task_3_7())
+                task_3_7()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -361,7 +361,7 @@ while True:
                         break
 
             elif exercise_3 == '8':
-                print(task_3_8())
+                task_3_8()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -372,7 +372,7 @@ while True:
                         break
 
             elif exercise_3 == '9':
-                print(task_3_9())
+                task_3_9()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -383,7 +383,7 @@ while True:
                         break
 
             elif exercise_3 == '10':
-                print(task_3_10())
+                task_3_10()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -394,7 +394,7 @@ while True:
                         break
 
             elif exercise_3 == '11':
-                print(task_3_11())
+                task_3_11()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -405,7 +405,7 @@ while True:
                         break
 
             elif exercise_3 == '12':
-                print(task_3_12())
+                task_3_12()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -416,7 +416,7 @@ while True:
                         break
 
             elif exercise_3 == '13':
-                print(task_3_13())
+                task_3_13()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -427,7 +427,7 @@ while True:
                         break
 
             elif exercise_3 == '14':
-                print(task_3_14())
+                task_3_14()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -438,7 +438,7 @@ while True:
                         break
 
             elif exercise_3 == '15':
-                print(task_3_15())
+                task_3_15()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -449,7 +449,7 @@ while True:
                         break
 
             elif exercise_3 == '16':
-                print(task_3_16())
+                task_3_16()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -460,7 +460,7 @@ while True:
                         break
 
             elif exercise_3 == '17':
-                print(task_3_17())
+                task_3_17()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -471,7 +471,7 @@ while True:
                         break
 
             elif exercise_3 == '18':
-                print(task_3_18())
+                task_3_18()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -507,7 +507,7 @@ while True:
                   '0.Назад')
             exercise_4 = input()
             if exercise_4 == '1':
-                print(task_4_1())
+                task_4_1()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -518,7 +518,7 @@ while True:
                         break
 
             elif exercise_4 == '2':
-                print(task_4_2())
+                task_4_2()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -529,7 +529,7 @@ while True:
                         break
 
             elif exercise_4 == '3':
-                print(task_4_3())
+                task_4_3()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -540,7 +540,7 @@ while True:
                         break
 
             elif exercise_4 == '4':
-                print(task_4_4())
+                task_4_4()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -551,7 +551,7 @@ while True:
                         break
 
             elif exercise_4 == '5':
-                print(task_4_5())
+                task_4_5()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -562,7 +562,7 @@ while True:
                         break
 
             elif exercise_4 == '6':
-                print(task_4_6())
+                task_4_6()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -573,7 +573,7 @@ while True:
                         break
 
             elif exercise_4 == '7':
-                print(task_4_7())
+                task_4_7()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -584,7 +584,7 @@ while True:
                         break
 
             elif exercise_4 == '8':
-                print()
+                task_4_8()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -595,7 +595,7 @@ while True:
                         break
 
             elif exercise_4 == '9':
-                print()
+
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -606,7 +606,7 @@ while True:
                         break
 
             elif exercise_4 == '10':
-                print()
+
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -617,7 +617,7 @@ while True:
                         break
 
             elif exercise_4 == '11':
-                print()
+
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -628,7 +628,7 @@ while True:
                         break
 
             elif exercise_4 == '12':
-                print()
+
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -639,7 +639,7 @@ while True:
                         break
 
             elif exercise_4 == '13':
-                print()
+
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -650,7 +650,7 @@ while True:
                         break
 
             elif exercise_4 == '14':
-                print()
+
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -661,7 +661,7 @@ while True:
                         break
 
             elif exercise_4 == '15':
-                print()
+
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:

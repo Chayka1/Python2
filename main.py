@@ -4,6 +4,7 @@ def task_1_1(x):
         z = 40
     print(f'y = {y}, z = {z}')
 
+
 def task_1_2(a):
     if a < 10:
         b = 0
@@ -435,11 +436,10 @@ def task_2_4():
         print(num_)
 
 def task_2_5():
-    sum = 0
     for a in range(1, 31):
         for b in range(31, 1, -1):
-            sum += (a / b)
-    print(sum)
+            c = (a / b)
+            print(b)
 
 def task_2_6():
     x = 1
@@ -520,11 +520,22 @@ def task_4_6():
 def task_4_7():
     cent = 1
     day = int(input('Введите количство дней: '))
-    print(f'В 1 день заработная плата составила {cent} коп')
+    print(f'В 1 день заработная плата составила {cent} копеек')
     for day_ in range(2, day + 1):
         cent *= 2
-        print(f'В {day_} день заработная плата составила {cent} коп')
+        print(f'В {day_} день заработная плата составила {cent} копеек')
     cent = (cent * 2) - 1
     cents = cent // 100
-    print(f'{cents} руб {cent - cents * 100} коп')
+    print(f'{cents} рубля {cent - cents * 100} копеек')
 
+def task_4_8():
+    total = 0
+    while True:
+        num = int(input('Введите число: '))
+        if num > 0:
+            total += num
+        else:
+            print(total)
+            return
+
+task_4_8()
