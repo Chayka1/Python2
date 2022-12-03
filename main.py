@@ -520,11 +520,11 @@ def task_4_6():
 def task_4_7():
     cent = 1
     day = int(input('Введите количство дней: '))
-    print(f'В 1 день заработная плата составила {cent} копеек')
+    print(f'В 1 день заработная плата составила {cent} коп')
     for day_ in range(2, day + 1):
         cent *= 2
-        print(f'В {day_} день заработная плата составила {cent} копеек')
+        print(f'В {day_} день заработная плата составила {cent} коп')
     cent = (cent * 2) - 1
     cents = cent // 100
-    print(f'{cents} рубля {cent - cents * 100} копеек')
+    print(f'{cents} руб {cent - cents * 100} коп')
 
