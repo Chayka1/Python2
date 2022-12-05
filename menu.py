@@ -595,7 +595,7 @@ while True:
                         break
 
             elif exercise_4 == '9':
-
+                task_4_9()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -606,7 +606,7 @@ while True:
                         break
 
             elif exercise_4 == '10':
-
+                task_4_10()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:
@@ -617,7 +617,7 @@ while True:
                         break
 
             elif exercise_4 == '11':
-
+                task_4_11()
                 print('-----------------------------------------------')
                 action = input('1.Выход из меню\n' + '0.Назад\n')
                 while True:

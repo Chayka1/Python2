@@ -538,4 +538,25 @@ def task_4_8():
             print(total)
             return
 
-task_4_8()
+def task_4_9():
+    mm = 1.6
+    print(f'За 1 год океан поднялся на {mm} миллиметров')
+    for year in range(2, 26):
+        mm += 1.6
+        print(f'За {year} год океан поднялся на {round(mm, 1)} миллиметров')
+
+def task_4_10():
+    price = 45000
+    procent = 0.03
+    print(f'Плата за обучение на 1 год составила {price}')
+    for year in range(2, 6):
+        procent_ = price * procent
+        price += procent_
+        print(f'Плата за обучение на {year} год составила {round(price, 2)}')
+
+def task_4_11():
+    waith = int(input('Введите свою массу тела: '))
+    for month in range(1,7):
+        waith -= 1.5
+        print(f'В {month} месяц ваш вес будет состовлять {waith}')
+
